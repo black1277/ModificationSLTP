@@ -3,8 +3,8 @@
 //|                                                           Genkos |
 //|                                             http://www.varles.ru |
 //+------------------------------------------------------------------+
-#property copyright "Genkos"
-#property link      "http://www.varles.ru"
+#property copyright "black1277"
+#property link      "https://github.com/black1277/ModificationSLTP"
 #property version   "1.00"
 #property strict
 int delta=140,// смещение от текущей цены
@@ -177,9 +177,6 @@ void OnStart()
 //       NoTrade(false);
        }
 
-
-
-      //Comment(sbm+"_"+cls+"_"+tp+"_"+sl+"_"+o_sell+"_"+o_buy);
 WindowRedraw();
       Sleep(150);
      }
